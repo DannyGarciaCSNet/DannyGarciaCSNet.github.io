@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Meta data -->
+    <title>Danny Garcia CS</title>
+    <meta name="description" content="Danny Garcia's resume website">
+    <meta name="author" content="Danny Garcia">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="visuals/favicon/icon72.png">
+
+    <link rel="icon" type="image/png" href="visuals/favicon/icon16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="visuals/favicon/icon32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="visuals/favicon/icon72.png" sizes="72x72">
+    <link rel="icon" type="image/png" href="visuals/favicon/icon96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="visuals/favicon/icon114.png" sizes="114x114">
+    <link rel="icon" type="image/png" href="visuals/favicon/icon152.png" sizes="152x152">
+
+    <link rel="apple-touch-icon" href="visuals/favicon/icon72.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="visuals/favicon/icon114.png" sizes="114x114">
+    <link rel="apple-touch-icon" href="visuals/favicon/icon152.png" sizes="152x152">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+
+    <!-- Website's navbar -->
+    <nav>
+        <div id="navbar" class="unhighlightable">
+
+            <!-- Navbar left-hand -->
+            <a class="leftNav" href="http://dannygarciacs.com/">
+                <img id="siteLogo" src="visuals/logo.webp" alt="Website logo">
+            </a>
+
+            <!-- Navbar right-hand -->
+            <ul id="headerTable">
+                <li class="headerRow"><a id="homeLink" class="rightNav" href="#home">Home</a></li>
+                <li class="headerRow"><a id="aboutLink" class="rightNav" href="#about">About</a></li>
+                <li class="headerRow"><a id="workLink" class="rightNav" href="#work">Work</a></li>
+                <li class="headerRow"><a id="contactLink" class="rightNav" href="#contact">Contact</a></li>
+
+                <li class="headerRow"><a class="navButton" href="resume.pdf" >Resume</a></li>
+                <li class="headerRow last"><a class="navButton" href="https://github.com/DannyGarciaCS">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home section -->
+    <section id="home" class="main_container">
+
+        <!-- Main section content -->
+        <div>
+
+            <!-- Intro 3D canvas -->
+            <div class="alignX cover">
+                <div class="alignY">
+                    <div id="canvasElement"><canvas id="element"></canvas></div>
+                </div>
+            </div>
+
+            <!-- Intro description -->
+            <div class="alignX cover">
+                <div id="description" class="alignY">
+                    <p class="spawn">Hello, my name is</p>
+                    <p class="spawn">Danny Garcia.</p>
+                    <p class="spawn">I'm a Data Scientist.</p>
+                    <p class="spawn">I like making high quality programs that solve difficult problems.
+                    I also have experience building apps, web development, and visual design.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="transition_ltd"></div>
+
+    <!-- About me section -->
+    <section id="about" class="main_container">
+
+        <!-- Main section content -->
+        <div>
+            <div>
+
+                <!-- Main about section -->
+                <p class="sectionHeader spawn">About Me</p>
+
+                <div id="aboutBody" class="spawn">
+
+                    <!-- About portrait image -->
+                    <div id="aboutPortrait">
+
+                        <img alt="Decorative star" id="star" class="unselectable" src="visuals/star.webp" class="unselectable">
+                        <div id="portraitOutline" class="unselectable"></div>
+                        <img id="portrait" src="visuals/portrait.webp" class="unselectable" alt="Photograph of Danny Garcia">
+                        <div id="portraitOverlay" class="unhighlightable" style="opacity:0;"></div>
+                    </div>
+
+                    <!-- About description -->
+                    <div id="aboutDescription">
+                        <p id="aboutP1">Hello! My name is Danny Garcia and I'm a Data Scientist. I fell in love with programming back in 2010 when I used a
+                        computer for the first time after moving here from Cuba. Ever since I've spent countless hours learning about different languages and
+                        technologies.</p>
+                        <p id="aboutP2">In 2020, I graduated from Florida Southern College with a degree in Computer Science - AI and Machine Learning and
+                        I'm currently working for JP Morgan Chase as an automation engineer. In my spare time, I like to work on a few personal apps and
+                        study Japanese, which I hope to make my third fluid language!</p>
+                    </div>
+                </div>
+
+                <!-- Subheader -->
+                <p id="aboutH2" class="spawn">Relevant Technologies I Use</p>
+
+            </div>
+
+            <div class="experienceTable">
+
+                <!-- Frontal logos -->
+                <img alt="Python logo" id="pythonLogo" class="frontalLogo unselectable" src="visuals/pythonLogo.webp" class="unselectable" >
+                <img alt="Java logo" id="javaLogo" class="frontalLogo unselectable" src="visuals/javaLogo.webp" class="unselectable">
+
+                <!-- Rear logos -->
+                <img alt="Javascript logo" id="javascriptLogo" class="rearLogo unselectable" src="visuals/javascriptLogo.webp" class="unselectable">
+                <img alt="Kotlin logo" id="kotlinLogo" class="rearLogo unselectable" src="visuals/kotlinLogo.webp" class="unselectable">
+
+                <div class="tableBuffer">
+
+                    <table class="experienceTable spawn">
+                        <tr><td class="tableTitle" colspan="3">Strong Knowledge Of</td></tr>
+
+                        <tr>
+                            <td class="tableCol">✔ Python</td>
+                            <td class="tableCol" style="width:30%">✔ Java</td>
+                            <td class="tableCol" style="width:20%">✔ AI</td>
+                        </tr>
+
+                        <tr>
+                            <td class="tableCol">✔ HTML</td>
+                            <td class="tableCol" style="width:30%">✔ Javascipt</td>
+                            <td class="tableCol" style="width:20%">✔ CSS</td>
+                        </tr>
+
+                        <tr>
+                            <td class="tableCol" style="width:20%">✔ Kotlin</td>
+                            <td class="tableCol" colspan="3">✔ Android Development</td>
+                        </tr>
+                        </table>
+
+                </div>
+            </div>
+
+            <!-- Table separation -->
+            <div class="tableSpacer"></div>
+
+            <div class="experienceTable">
+                <div class="tableBuffer">
+
+                    <table class="experienceTable spawn">
+                        <tr><td class="tableTitle" colspan="3">Knowledgeable On</td></tr>
+    
+                        <tr class="tableRow">
+                            <td class="tableCol">✔ SQL</td>
+                            <td class="tableCol" style="width:20%">✔ Git</td>
+                            <td class="tableCol" style="width:40%">✔ Swift</td>
+                        </tr>
+    
+                        <tr class="tableRow">
+                            <td class="tableCol" style="width:20%">✔ C++</td>
+                            <td class="tableCol" style="width:20%">✔ C#</td>
+                            <td class="tableCol" style="width:40%">✔ VR Development</td>
+                        </tr>
+
+                    </table>
+
+                </div>
+            </div>
+
+            <!-- Footer section separation -->
+            <div class="spacer"></div>
+
+        <!-- Section transition -->
+        <div class="transition_dtl"></div>
+    </section>
+
+    <!-- Work section -->
+    <section id="work" class="main_container">
+        <div>
+
+            <p class="sectionHeader spawn">Some Personal Projects</p>
+
+            <!-- Collection of projects -->
+            <div id="workContainer">
+
+                <!-- JP trainer project -->
+                <div class="spawn">
+
+                    <div class="projectHeader">
+                        <p class="projectTitle">JP Trainer</p>
+                        <a href="https://github.com/DannyGarciaCS/JPTrainer">
+                            <img class="unselectable githubLink" src="visuals/gh.webp" alt="JP Trainer Github link">
+                        </a>
+                    </div>
+
+                    <div class="projectDetails">
+                        <div class="projectPreview">
+                            <div id="jpTrainerPreview" style="margin-left: 5vh;"></div>
+                        </div>
+                        <div class="projectDescriptionBox">
+                            <p class="projectDescription">
+                            JPTrainer is a program built to help beginners of the Japanese language practice writing
+                            foreign characters. You can use it to learn any combination of Hiragana, Katakana, or Kanji
+                            characters. The user is given random characters from the chosen subset which have to be
+                            drawn and submitted using the provided canvas. An AI model will then try to predict what
+                            the user is trying to draw in real-time displaying the current guess in a small window
+                            to the right of the canvas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="projectTechnologies">
+                        <p class="projectTechnologiesHeader">Main Technologies Used:</p>
+                        <p class="projectTechnologiesBody">Python, Keras, Tensorflow</p>
+                    </div>
+                </div>
+
+
+
+                <!-- Boid Flock project -->
+                <div class="spawn">
+
+                    <div class="projectHeader">
+                        <p class="projectTitle">Boid Flock Emergent AI</p>
+                        <a href="https://github.com/DannyGarciaCS/JPTrainer">
+                            <img class="unselectable githubLink" src="visuals/gh.webp" alt="Boid Flock Emergent AI Github link">
+                        </a>
+                    </div>
+
+                    <div class="projectDetails">
+                        <div class="projectPreview">
+                            <div id="boidFlockPreview" style="margin-left: 5vh;"></div>
+                        </div>
+                        <div class="projectDescriptionBox">
+                            <p class="projectDescription">
+                                Boid Flock Emergent AI is the implementation of a 2D flocking algorithm. It simulates
+                                the natural movement of birds, fish, or any other animals with similar behavior. This is
+                                done by controlling the intensity of 3 different forces: Alignment (which makes boids
+                                look toward the direction of neighbors), Cohesion (which makes boids move toward the
+                                center of the pack), and Separation (which makes the boids want to avoid one another).
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="projectTechnologies">
+                        <p class="projectTechnologiesHeader">Main Technologies Used:</p>
+                        <p class="projectTechnologiesBody">JavaScript, HTML, CSS, Java</p>
+                    </div>
+                </div>
+
+                <!-- Evolutionary Sim project -->
+                <div class="spawn">
+
+                    <div class="projectHeader">
+                        <p class="projectTitle">Evolutionary Sim (Preview)</p>
+                    </div>
+
+                    <div class="projectDetails">
+                        <div class="projectPreview">
+                            <div id="evolutionarySimPreview" style="margin-left: 5vh;"></div>
+                        </div>
+                        <div class="projectDescriptionBox">
+                            <p class="projectDescription">
+                                Project I'm currently working on. It is a randomly generated 3D environment with
+                                different animals who compete to survive. They attempt to find food and reproduce
+                                while trying to not starve or be eaten by predators. Each animal has genetic
+                                attributes such as speed and sight which must be balanced in order to not become
+                                extinct. Such genetic attributes are passed down from parents to their children in a way
+                                that mimics real-life evolution.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="projectTechnologies">
+                        <p class="projectTechnologiesHeader">Main Technologies Used:</p>
+                        <p class="projectTechnologiesBody">Python, OpenGL, Matplotlib</p>
+                    </div>
+                </div>
+
+                <p class="subprojectTitle">Other Projects:</p>
+
+                <div class="subproject">
+                    <p class="subprojectName">Satellite Image AI Processing</p>
+                    <p class="subprojectDescription">Algorithm that processed thousands of square miles of high quality
+                    satellite imagery and highlights specific sections of terrain and pinpoints specific targets.
+                    </p>
+                </div>
+
+                <div class="subproject">
+                    <p class="subprojectName">VR FSC campus navigation App</p>
+                    <p class="subprojectDescription">This was my Senior project at Florida Southern College.
+                    It was a VR app that allowed for the navigation of the FSC campus using a virtual 3D environment and 4k 360 images.
+                    </p>
+                </div>
+
+
+                <div class="subproject">
+                    <p class="subprojectName">Python graphics library</p>
+                    <p class="subprojectDescription">Simple graphics library parts of which where used on the previous projects.
+                    Allows for a functional approach to UI design and was originally written to help my brother learn to program.
+                    </p>
+                </div>
+
+                <div class="subproject">
+                    <p class="subprojectName">Maze search algorithm tester</p>
+                    <p class="subprojectDescription">An algorithm that generates mazes to test different search algorithms.
+                    You can compare the different paths and search durations to better determine which one better suites your project.
+                    </p>
+                </div>
+
+                
+            </div>
+        </div>
+
+        <!-- Footer section separation -->
+        <div class="shortSpacer"></div>
+        
+        <!-- Section transition -->
+        <div class="transition_ltd"></div>
+
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="main_container">
+
+        <!-- Main section content -->
+        <div>
+
+            <p class="sectionHeader spawn">Get In Touch</p>
+            <p id="contactSubheader" class="spawn">Have any questions?<br id="portraitBreak"> Want to work together?<br>Send me a message.</p>
+            <div style="display: flex; justify-content: center;">
+
+                <form action="https://formsubmit.co/cc894011de2f22f6d5af79dc40110a1c" method="POST">
+
+                    <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display:none;">
+
+                    <!-- Disable Captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <!-- Form redirect -->
+                    <input type="hidden" name="_next" value="https://dannygarciacs.com/contact.html">
+
+                    <input id="formName" class="formInput spawn" placeholder="Your Name" type="text" name="Name" required>
+                    <input id="formEmail" class="formInput spawn" placeholder="Your Email Address" type="email" name="Email" required>
+                    <textarea id="formMessage" class="formInput spawn" placeholder="Your Message" type="text" name="Message" required></textarea>
+
+                    <div class="spawn">
+                        <button id="formSubmit" type="submit" id="submit" style="background-color: transparent;">SEND</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Footer section separation -->
+            <div class="shortSpacer"></div>
+        </div>
+        
+    </section>
+
+    <!-- Javascript -->
+    <script src="js/gsap.js"></script>
+    <script src="js/minthreejs.js"></script>
+    <script src="js/gltfloader.js"></script>
+    <script src="js/spawn.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/model.js"></script>
+
+</body>
+</html>
